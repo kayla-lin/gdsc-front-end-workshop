@@ -43,3 +43,6 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore doloribus enim 
 <i class="devicon-bootstrap-plain"></i>
 <i class="devicon-vuejs-plain"></i>
 <i class="devicon-angularjs-plain"></i>
+
+# Image place holder link
+https://dummyimage.com/600x400/fff/00
