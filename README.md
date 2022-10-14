@@ -1,8 +1,7 @@
 # GDSC Front end Workshop
-## Resources for GDSC's front end workshop at DandyHacks 😀
+See deployment: https://kayla-lin.github.io/gdsc-front-end-workshop/index.html
 
-### See deployment:
-https://kayla-lin.github.io/gdsc-front-end-workshop/index.html
+## Resources for GDSC's front end workshop at DandyHacks 😀
 
 ### To see full project file
 Navigate to the 'finished' branch `branches -> finished`
