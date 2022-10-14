@@ -5,8 +5,8 @@
 :root {
   --brand: #e280c3;
   --brand-dark: #bb5199;
-  --background: #0d0106;
-  --background-light: #210410;
+  --background: #171923;
+  --background-light: #2d3748;
 }
 
 * {
@@ -33,7 +33,7 @@ a:hover {
 
 /* Buttons */
 button {
-  background: var(--brand);
+  background: var(--background-light);
   border: none;
   color: white;
   padding: 10px 20px;
