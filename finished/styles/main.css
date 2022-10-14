@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap");
+
+/* Global styles */
+
+:root {
+  --brand: #e280c3;
+  --brand-dark: #bb5199;
+  --background: #171923;
+  --background-light: #2d3748;
+}
+
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: white;
+}
+
+/* Links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+/* Buttons */
+button {
+  background: var(--background-light);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: var(--brand-dark);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Text */
+.bolded {
+  color: var(--brand);
+  font-weight: 900;
+}
+
+/* Navigation */
+
+/* Navigation main */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Navigation link */
+.navbar-links a {
+  padding: 0 10px;
+}
+
+.navbar-active {
+  color: var(--brand);
+}
+
+.navbar-home {
+  color: var(--brand);
+  font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--brand-dark);
+}
+
+.footer h3 {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 20px;
+  }
+}
